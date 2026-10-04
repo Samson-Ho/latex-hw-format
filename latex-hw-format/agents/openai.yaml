@@ -1,0 +1,4 @@
+interface:
+  display_name: "Latex-HW-Format"
+  short_description: "Format LaTeX homework in the HW-1/HW-3 house style"
+  default_prompt: "Use $latex-hw-format to format this homework as a polished LaTeX assignment."
