@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "latex-hw-format",
+  "version": "0.1.0",
+  "description": "Formats LaTeX homework using a consistent title page, current/total page numbering, and structured problem/solution layout.",
+  "author": {
+    "name": "Samson Ho"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Latex-HW-Format",
+        "shortDescription": "LaTeX homework formatting",
+        "longDescription": "Formats LaTeX homework in the preferred HW-1/HW-3 house style, including title-page formatting, current/total page numbering, per-problem chapter labels, Question/Solution blocks, numbered solution steps, and horizontal problem separators.",
+        "developerName": "Samson Ho",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "Format this homework using Latex-HW-Format.",
+          "Reformat this LaTeX homework to match my HW-1/HW-3 house style.",
+          "Create a polished LaTeX homework file using my standard homework format."
+        ]
+      }
+    }
+  }
+}
